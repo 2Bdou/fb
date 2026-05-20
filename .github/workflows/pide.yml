@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Random delay before ping
         run: |
-          # 生成随机秒数 0~1800 (30分钟)
-          RANDOM_DELAY=$((RANDOM % 1800))
+          # 生成随机秒数 0~900
+          RANDOM_DELAY=$((RANDOM % 900))
           echo "随机 $RANDOM_DELAY 秒..."
           sleep $RANDOM_DELAY
 
