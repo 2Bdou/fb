@@ -19,5 +19,5 @@ jobs:
       - name: tes
         run: |
           echo "访问 ChainIDE 应用..."
-          curl -s https://你的-chainide-app-url
+          curl -s https://sandbox-a1b8d6cf763c4cfa96088a724ab582db-ethereum-54784.prod-sandbox.chainide.com/
           echo "success"
